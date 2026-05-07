@@ -19,4 +19,3 @@ No `cmd/`, `internal/`, Dockerfile, compose stack, or backend env vars are neede
 ## Alternatives Considered
 
 Adding an unused Go skeleton was rejected because it would imply a server surface that does not exist.
-

@@ -24,4 +24,3 @@ Simulation code remains testable without React. Rendering code is isolated from 
 ## Alternatives Considered
 
 A single large React component was rejected because it would make testing and tuning the solver difficult.
-

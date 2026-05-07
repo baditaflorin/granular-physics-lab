@@ -19,4 +19,3 @@ Do not add a Mode B data-generation pipeline in v1.
 ## Alternatives Considered
 
 Precomputing simulation traces was rejected because interactive browser simulation is the core value.
-

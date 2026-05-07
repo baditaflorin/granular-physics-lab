@@ -19,4 +19,3 @@ Users see a clean console unless the browser lacks an optional capability.
 ## Alternatives Considered
 
 Verbose simulation logging was rejected because it would hurt performance and clutter production use.
-

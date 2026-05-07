@@ -19,4 +19,3 @@ The app remains usable on older browsers, with reduced capability labels.
 ## Alternatives Considered
 
 Failing hard when WebGPU is unavailable was rejected because it would exclude many current browsers.
-

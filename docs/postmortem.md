@@ -37,4 +37,3 @@ Yes. The v1 workload fits the browser: bounded particle counts, static assets, l
 ## Time Spent Vs Estimate
 
 V1 was scoped as a medium feasibility static app. The final mode stayed within that scope by keeping the simulation bounded and client-side.
-

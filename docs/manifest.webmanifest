@@ -1,0 +1,18 @@
+{
+  "name": "Granular Physics Lab",
+  "short_name": "Granular Lab",
+  "start_url": "/granular-physics-lab/",
+  "scope": "/granular-physics-lab/",
+  "display": "standalone",
+  "background_color": "#f4f2eb",
+  "theme_color": "#235f51",
+  "description": "Browser granular physics sandbox for sand, gravel, and snow.",
+  "icons": [
+    {
+      "src": "/granular-physics-lab/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

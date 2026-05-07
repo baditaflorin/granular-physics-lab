@@ -19,4 +19,3 @@ The build can target GitHub Pages with a base path of `/granular-physics-lab/` a
 ## Alternatives Considered
 
 Vanilla TypeScript was possible but would make the control surface and state persistence more verbose.
-

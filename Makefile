@@ -1,4 +1,4 @@
-.PHONY: help install-hooks dev build test test-integration smoke lint fmt pages-preview release clean hooks-pre-commit hooks-commit-msg hooks-pre-push
+.PHONY: help install-hooks dev build test test-integration smoke visual-check lint fmt pages-preview release clean hooks-pre-commit hooks-commit-msg hooks-pre-push
 
 help:
 	@printf "Targets:\n"
@@ -8,6 +8,7 @@ help:
 	@printf "  make test              Run unit tests\n"
 	@printf "  make test-integration  Reserved for future browser integration tests\n"
 	@printf "  make smoke             Build, serve docs/, and run Playwright smoke checks\n"
+	@printf "  make visual-check      Capture desktop/mobile screenshots and validate canvas pixels\n"
 	@printf "  make lint              Run ESLint and Prettier checks\n"
 	@printf "  make fmt               Format files\n"
 	@printf "  make pages-preview     Preview the built Pages site\n"
@@ -33,6 +34,9 @@ test-integration:
 smoke:
 	npm run smoke
 
+visual-check:
+	npm run visual-check
+
 lint:
 	npm run lint
 
@@ -57,4 +61,3 @@ release:
 
 clean:
 	rm -rf coverage .cache playwright-report test-results
-

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Granular Physics Lab">
+  <rect width="64" height="64" rx="12" fill="#f4f2eb"/>
+  <path d="M10 42c8 7 17 10 27 8 8-2 13-7 17-15" fill="none" stroke="#235f51" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="18" cy="30" r="5" fill="#d7a84f"/>
+  <circle cx="31" cy="24" r="6" fill="#6f6a5f"/>
+  <circle cx="43" cy="33" r="5" fill="#b9d7da"/>
+  <circle cx="27" cy="40" r="4" fill="#b86b44"/>
+</svg>
+

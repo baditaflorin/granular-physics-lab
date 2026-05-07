@@ -19,4 +19,3 @@ No freshness policy or artifact release workflow is needed. Breaking material-pr
 ## Alternatives Considered
 
 A Mode B data directory was rejected because v1 does not depend on remote datasets.
-

@@ -22,4 +22,3 @@ Revert the publishing commit on `main` and push. GitHub Pages will republish the
 ## Custom Domain
 
 No custom domain is configured. To add one, create `docs/CNAME`, point DNS to GitHub Pages, then configure the repository Pages settings.
-

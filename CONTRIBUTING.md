@@ -31,4 +31,3 @@ make smoke
 ```
 
 Do not commit secrets, private keys, `.env` files, or generated local caches.
-

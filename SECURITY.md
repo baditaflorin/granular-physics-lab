@@ -16,4 +16,3 @@ Do not open public issues for suspected vulnerabilities.
 - No runtime backend is deployed.
 - Browser persistence is local to the user's device.
 - Gitleaks is wired into the local pre-commit hook.
-

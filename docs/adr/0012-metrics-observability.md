@@ -19,4 +19,3 @@ No PII is collected. Observability is educational and local to the page.
 ## Alternatives Considered
 
 Plausible and beacon analytics were rejected because usage insight is not required for v1.
-

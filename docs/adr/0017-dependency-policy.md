@@ -21,4 +21,3 @@ The project avoids hand-rolled rendering, build, lint, and test infrastructure.
 ## Alternatives Considered
 
 Custom canvas rendering was rejected because Three.js provides better device coverage and future WebGPU growth.
-

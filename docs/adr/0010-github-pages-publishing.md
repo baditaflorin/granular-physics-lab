@@ -21,4 +21,3 @@ The Vite base path is `/granular-physics-lab/`. Asset filenames are hashed. `404
 ## Alternatives Considered
 
 A `gh-pages` branch was rejected because committing the build output into `main/docs` keeps local hooks and Pages publishing simpler without GitHub Actions.
-

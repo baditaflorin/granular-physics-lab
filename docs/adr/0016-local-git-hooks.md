@@ -19,4 +19,3 @@ Contributors must run `make install-hooks` locally. Hooks remain readable shell 
 ## Alternatives Considered
 
 Lefthook was considered but plain shell hooks are sufficient for this small repo.
-

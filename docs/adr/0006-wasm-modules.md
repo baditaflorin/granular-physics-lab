@@ -21,4 +21,3 @@ The app has a real WASM physics component while staying portable. It is not full
 ## Alternatives Considered
 
 Compiling the full Chrono C++ stack to WASM was rejected for v1 due to asset size, memory use, and Pages header limits.
-

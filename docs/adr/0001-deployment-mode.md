@@ -24,4 +24,3 @@ The app ships as static files from `main` branch `/docs`. Simulation runs in the
 
 - Mode B: unnecessary because no offline data pipeline is needed.
 - Mode C: unnecessary because v1 has no auth, server-side writes, secrets, or shared compute.
-

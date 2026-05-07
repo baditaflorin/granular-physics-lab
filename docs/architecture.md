@@ -37,4 +37,3 @@ C4Container
 ## Boundaries
 
 GitHub Pages serves static files only. The browser owns rendering, simulation, storage, and all interaction state.
-

@@ -19,4 +19,3 @@ No `deploy/` directory, nginx, Docker Compose, Prometheus, TLS configuration, or
 ## Alternatives Considered
 
 Mode C topology was rejected because there is no runtime API.
-

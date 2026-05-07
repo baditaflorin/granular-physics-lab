@@ -19,4 +19,3 @@ The app has no secret-dependent features. External links are public constants.
 ## Alternatives Considered
 
 Runtime secrets were rejected because there is no runtime backend.
-

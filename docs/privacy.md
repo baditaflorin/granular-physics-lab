@@ -8,4 +8,3 @@ External links:
 
 - https://github.com/baditaflorin/granular-physics-lab
 - https://www.paypal.com/paypalme/florinbadita
-

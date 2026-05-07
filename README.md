@@ -6,6 +6,8 @@ Repository: https://github.com/baditaflorin/granular-physics-lab
 
 Granular Physics Lab is a static browser sandbox for teaching how sand, gravel, and snow shift between flowing, piling, and jammed behavior.
 
+![Granular Physics Lab desktop screenshot](docs/demo.png)
+
 ## Quickstart
 
 ```bash
@@ -56,4 +58,3 @@ make install-hooks
 ```
 
 No GitHub Actions are used. Checks run locally through `make lint`, `make test`, `make build`, and `make smoke`.
-

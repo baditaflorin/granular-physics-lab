@@ -19,4 +19,3 @@ Use Vitest for unit tests and Playwright in `scripts/smoke.sh` for a static-site
 ## Alternatives Considered
 
 A large browser e2e suite was rejected for v1 to avoid flaky simulation assertions.
-
