@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+npm run lint
+npm run test
+
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --verbose
+elif npx --no-install gitleaks --version >/dev/null 2>&1; then
+  npx --no-install gitleaks protect --staged --verbose
+else
+  printf "gitleaks not found; install it before pushing production changes.\n"
+fi
+
