@@ -4,6 +4,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const outputPath = path.join(root, "src", "generated", "buildInfo.ts");
+
+if (process.env.PRESERVE_BUILD_INFO === "1") {
+  await readFile(outputPath, "utf8");
+  process.exit(0);
+}
+
 const packageJson = JSON.parse(await readFile(path.join(root, "package.json"), "utf8"));
 
 function gitValue(command, fallback) {
@@ -30,4 +37,4 @@ const output = `export const buildInfo = {
 } as const;\n`;
 
 await mkdir(path.join(root, "src", "generated"), { recursive: true });
-await writeFile(path.join(root, "src", "generated", "buildInfo.ts"), output);
+await writeFile(outputPath, output);

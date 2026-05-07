@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+export PRESERVE_BUILD_INFO=1
+
 make test
 make build
 test -f docs/index.html
 make smoke
-
