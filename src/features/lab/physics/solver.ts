@@ -296,8 +296,18 @@ export class GranularSolver {
         b.vy += ny * impulse * bShare;
       }
 
+      // Coulomb-style tangential friction: the impulse tries to cancel the
+      // relative sliding velocity outright (a "stick" response for slow
+      // creep, which is what actually holds a pile at an angle of repose),
+      // bounded by a cap that scales with the material's friction
+      // coefficient (a "slip" response once sliding is too fast to arrest
+      // in one step). The previous fixed +/-0.08 cap ignored `friction`
+      // entirely, so every material slid at effectively the same rate no
+      // matter how high its friction preset was, and pours settled almost
+      // flat instead of holding a slope.
       const tangentSpeed = rvx * tx + rvy * ty;
-      const frictionImpulse = clamp(tangentSpeed * friction * 0.035, -0.08, 0.08);
+      const maxFriction = friction * 0.6;
+      const frictionImpulse = clamp(tangentSpeed * 0.9, -maxFriction, maxFriction);
       a.vx += tx * frictionImpulse * aShare;
       a.vy += ty * frictionImpulse * aShare;
       b.vx -= tx * frictionImpulse * bShare;
