@@ -1,6 +1,6 @@
 export const buildInfo = {
   version: "0.1.0",
-  shortCommit: "9fd50dd",
-  fullCommit: "9fd50dd7b1b0bb7f383dad9d35bf2c43f61b476f",
+  shortCommit: "a0b181b",
+  fullCommit: "a0b181bf5d899d97c73da687c414a56aaae5f427",
   branch: "main"
 } as const;
